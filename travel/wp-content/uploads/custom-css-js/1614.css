@@ -1,0 +1,51 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.main-header {
+/* 	position: fixed; */
+	width: 100%;
+	background: transparent;
+}
+
+.main-hero {
+	margin-top: -87px !important;
+    min-height: 106vh;
+}
+
+footer p{
+	overflow-wrap: break-word;
+}
+
+.placeholder.placeholder_border {
+    font-weight: 600;
+}
+
+.placeholder_border.ppl-placeholder {
+	font-size: 14px;
+    font-weight: 600;
+}
+
+.field-wrapper input {
+	border: 1px solid #000000;
+}
+
+#depDateCar {
+    width: 100% !important;
+}
+
+.search-btnHotel {
+    background: linear-gradient(to bottom, #0090DF, #0068A2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 500;
+    padding: 0.7rem 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 86%;
+    left: 41%;
+    cursor: pointer;
+    border: 2px solid #008AD6;
+}</style>
+<!-- end Simple Custom CSS and JS -->

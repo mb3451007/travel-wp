@@ -1,0 +1,151 @@
+0000.000 (0) Opened log file at time: Thu, 05 Dec 2024 10:22:42 +0000 on https://localhost/travel
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-NT6LERC 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 82.9M | 86M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 122620.5 MB
+0000.011 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.015 (0) Semaphore (d, wp_options) being initialised
+0000.025 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.031 (0) Set semaphore last lock (d) time to 2024-12-05 10:22:42
+0000.033 (0) Semaphore lock (d) complete
+0000.041 (0) Backup run: resumption=0, nonce=00705bb91c31, file_nonce=00705bb91c31 begun at=1733394162 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1733394462) in case this run gets aborted
+0000.060 (0) This backup run is not intended for files - skipping
+0000.063 (0) Beginning creation of database dump (WordPress DB)
+0000.065 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.101 (0) Table wp_options: Total expected rows (via COUNT): 368
+0000.104 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.182 (0) Table wp_options: Rows added in this batch (next record: 40399): 364 (uncompressed bytes in this segment=2008311) in 0.10 seconds
+0000.199 (0) Table wp_options: finishing file(s) (2, 301.3 KB)
+0000.226 (0) Table wp_users: Total expected rows (via COUNT): 2
+0000.227 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.231 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1327) in 0.03 seconds
+0000.242 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.269 (0) Table wp_usermeta: Total expected rows (via COUNT): 48
+0000.271 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.276 (0) Table wp_usermeta: Rows added in this batch (next record: 50): 48 (uncompressed bytes in this segment=6262) in 0.03 seconds
+0000.286 (0) Table wp_usermeta: finishing file(s) (2, 2.7 KB)
+0000.313 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 48
+0000.314 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.319 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 125): 48 (uncompressed bytes in this segment=22194) in 0.03 seconds
+0000.332 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.3 KB)
+0000.350 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.354 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.02 seconds
+0000.363 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.385 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0000.387 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.391 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.02 seconds
+0000.401 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.421 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 134
+0000.424 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.429 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 227): 134 (uncompressed bytes in this segment=12206) in 0.02 seconds
+0000.439 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.8 KB)
+0000.472 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.476 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.03 seconds
+0000.487 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.509 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0000.515 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1466) in 0.02 seconds
+0000.527 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0000.549 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.552 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0000.562 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.431 (0) Table wp_postmeta: Total expected rows (approximate): 11162
+0004.151 (0) Table wp_postmeta: Rows added in this batch (next record: 13795): 11856 (uncompressed bytes in this segment=89956646) in 3.58 seconds
+0004.169 (0) Table wp_postmeta: finishing file(s) (2, 9558.6 KB)
+0004.562 (0) Table wp_posts: Total expected rows (approximate): 1285
+0005.276 (0) Table wp_posts: Rows added in this batch (next record: 1716): 1589 (uncompressed bytes in this segment=26738878) in 1.10 seconds
+0005.289 (0) Table wp_posts: finishing file(s) (2, 2982.1 KB)
+0005.309 (0) Table wp_term_relationships: Total expected rows (approximate): 19
+0005.315 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=944) in 0.02 seconds
+0005.333 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0005.354 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0005.355 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.358 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1044) in 0.02 seconds
+0005.367 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0005.384 (0) Table wp_termmeta: Total expected rows (via COUNT): 1
+0005.386 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.388 (0) Table wp_termmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=684) in 0.02 seconds
+0005.397 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0005.412 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0005.414 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.416 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=890) in 0.01 seconds
+0005.423 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0005.440 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0005.444 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0005.451 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0005.468 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0005.470 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.01 seconds
+0005.479 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0005.497 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0005.502 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.02 seconds
+0005.517 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0005.534 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0005.538 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.02 seconds
+0005.546 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0005.568 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 11
+0005.570 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.573 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 21): 11 (uncompressed bytes in this segment=1450) in 0.02 seconds
+0005.582 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0005.584 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\travel/wp-content/updraft/backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db.gz (line 1925, C:\xampp\htdocs\travel\wp-content\plugins\updraftplus\backup.php)
+0005.587 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_options.table.tmpr40400.gz (1/21/fopen): adding to final database dump
+0005.594 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0005.600 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_users.table.tmpr3.gz (3/21/fopen): adding to final database dump
+0005.602 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0005.604 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_usermeta.table.tmpr51.gz (5/21/fopen): adding to final database dump
+0005.605 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0005.607 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_actions.table.tmpr126.gz (7/21/fopen): adding to final database dump
+0005.609 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_actions.table.gz (8/21/fopen): adding to final database dump
+0005.611 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/21/fopen): adding to final database dump
+0005.613 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_claims.table.gz (10/21/fopen): adding to final database dump
+0005.615 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/21/fopen): adding to final database dump
+0005.617 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_groups.table.gz (12/21/fopen): adding to final database dump
+0005.619 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_logs.table.tmpr228.gz (13/21/fopen): adding to final database dump
+0005.621 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_actionscheduler_logs.table.gz (14/21/fopen): adding to final database dump
+0005.622 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_commentmeta.table.tmpr0.gz (15/21/fopen): adding to final database dump
+0005.624 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_commentmeta.table.gz (16/21/fopen): adding to final database dump
+0005.626 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_comments.table.tmpr0.gz (17/21/fopen): adding to final database dump
+0005.628 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_comments.table.gz (18/21/fopen): adding to final database dump
+0005.629 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_links.table.tmpr0.gz (19/21/fopen): adding to final database dump
+0005.631 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_links.table.gz (20/21/fopen): adding to final database dump
+0005.632 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_postmeta.table.tmpr13796.gz (21/21/fopen): adding to final database dump
+0005.825 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_postmeta.table.gz (22/21/fopen): adding to final database dump
+0005.827 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_posts.table.tmpr1717.gz (23/21/fopen): adding to final database dump
+0005.868 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_posts.table.gz (24/21/fopen): adding to final database dump
+0005.870 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_term_relationships.table.tmpr100001.gz (25/21/fopen): adding to final database dump
+0005.872 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_term_relationships.table.gz (26/21/fopen): adding to final database dump
+0005.874 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_term_taxonomy.table.tmpr8.gz (27/21/fopen): adding to final database dump
+0005.875 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_term_taxonomy.table.gz (28/21/fopen): adding to final database dump
+0005.876 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_termmeta.table.tmpr2.gz (29/21/fopen): adding to final database dump
+0005.878 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_termmeta.table.gz (30/21/fopen): adding to final database dump
+0005.879 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_terms.table.tmpr8.gz (31/21/fopen): adding to final database dump
+0005.881 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_terms.table.gz (32/21/fopen): adding to final database dump
+0005.883 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_e_events.table.tmpr0.gz (33/21/fopen): adding to final database dump
+0005.884 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_e_events.table.gz (34/21/fopen): adding to final database dump
+0005.886 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_logs.table.tmpr0.gz (35/21/fopen): adding to final database dump
+0005.887 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_logs.table.gz (36/21/fopen): adding to final database dump
+0005.888 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0005.890 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_payment_meta.table.gz (38/21/fopen): adding to final database dump
+0005.891 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_payments.table.tmpr0.gz (39/21/fopen): adding to final database dump
+0005.893 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_payments.table.gz (40/21/fopen): adding to final database dump
+0005.895 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_tasks_meta.table.tmpr22.gz (41/21/fopen): adding to final database dump
+0005.897 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db-table-wp_wpforms_tasks_meta.table.gz (42/21/fopen): adding to final database dump
+0005.946 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db.gz: finished writing out complete database file (12855.7 KB)
+0006.086 (0) Total database tables backed up: 21 (backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db.gz, size: 13164355, sha1: d4f4b0f38882e22b2b05c20c77c88a0e60318bae, sha256: 60cad7945a79428172b75adf3d1e54021a85f09b3ba01f515e9fd1b255da61df)
+0006.092 (0) backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.094 (0) Saving backup history. Total backup size: 12.6 MB
+0006.097 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0006.102 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.103 (0) No remote despatch: user chose no remote backup service
+0006.105 (0) Recording as successfully uploaded: backup_2024-12-05-1022_Tradebloccorporatetravel_00705bb91c31-db.gz
+0006.110 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.112 (0) Number of backup sets in history: 1; groups (db): 1
+0006.114 (0) Examining (for databases) backup set with group_id=0, nonce=00705bb91c31, datestamp=1733394162 (Dec 05 2024 10:22:42)
+0006.116 (0) This backup set is the backup set just made, so will not be deleted.
+0006.116 (0) Number of backup sets in history: 1; groups (files): 1
+0006.117 (0) Examining (for files) backup set with nonce=00705bb91c31, datestamp=1733394162 (Dec 05 2024 10:22:42)
+0006.117 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0006.119 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.122 (0) Resume backup (00705bb91c31, 0): finish run
+0006.127 (0) Decremented the semaphore (d) by 1
+0006.129 (0) Semaphore (d) unlocked
+0006.131 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.135 (0) No email will/can be sent - the user has not configured an email address.
+0006.137 (0) The backup succeeded and is now complete

@@ -1,0 +1,7 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.hover-card:hover p {
+    color: rgb(0, 167, 225); /* Change to the desired color */
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
