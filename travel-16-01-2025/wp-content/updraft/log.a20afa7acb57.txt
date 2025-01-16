@@ -1,0 +1,15 @@
+0000.000 (1) Opened log file at time: Thu, 16 Jan 2025 16:54:37 +0000 on https://localhost/travelagency
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 8.2.4 (apache2handler, Darwin As-MacBook-Pro.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Feb 19 20:24:34 PST 2024; root:xnu-8020.240.18.707.4~1/RELEASE_X86_64 x86_64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 75.7M | 79M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 52741.1 MB
+0000.007 (1) Requesting backup semaphore lock (a20afa7acb57)
+0000.011 (1) [Debug] Lock option (updraft_lock_a20afa7acb57, wp_options) was created in the database
+0000.012 (1) [Info] Lock (updraft_lock_a20afa7acb57, wp_options) acquired after initialising the database
+0000.014 (1) This backup task (a20afa7acb57) is either complete or began over 2 days ago: ending (1737046477.873, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Thu, 16 Jan 2025 16:54:37 +0000 on https://localhost/travelagency
+0000.003 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 8.2.4 (apache2handler, Darwin As-MacBook-Pro.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Feb 19 20:24:34 PST 2024; root:xnu-8020.240.18.707.4~1/RELEASE_X86_64 x86_64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 75.7M | 79M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 52741.1 MB
+0000.007 (1) Requesting backup semaphore lock (a20afa7acb57)
+0000.010 (1) [Debug] Lock option (updraft_lock_a20afa7acb57, wp_options) already existed in the database
+0000.010 (1) [Info] Lock (updraft_lock_a20afa7acb57, wp_options) could not be acquired (it is locked)
+0000.012 (1) Failed to gain semaphore lock (a20afa7acb57) - another resumption for this job is apparently already active
+0000.015 (1) Failed to get backup job lock; possible overlapping resumptions - will abort this instance
